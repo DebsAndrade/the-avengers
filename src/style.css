@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+
+body {
+  background-color: #e9ecef;
+}
+
+header {
+  background-color: #001845;
+  border-bottom: 3px solid #001233;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 64px;
+  box-shadow: 2px 2px 3px #33415c;
+  margin-bottom: 50px;
+}
+
+header figure img {
+  width: 100px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  color: #f8f9fa;
+  line-height: 104px;
+  display: inline-block;
+  margin-left: 30px;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+
+li:hover {
+  color: #cc0000;
+}
+
+main {
+  padding: 15px 64px;
+}
+
+main section {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+main section figure img {
+  height: 400px;
+}
+
+main section aside {
+  width: 500px;
+}
+
+main section aside h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #001233;
+  font-size: 35px;
+  border-bottom: 1px solid #495057;
+  margin-bottom: 20px;
+  padding: 5px;
+}
+
+main section aside p {
+  font-family: 'Montserrat', sans-serif;
+  color: #001233;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+footer {
+  padding: 15px 64px;
+  background-color: #cc0000;
+  border-top: 3px solid #d3af37;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer p {
+  font-family: 'Montserrat', sans-serif;
+  color: #001233;
+  font-size: 12px;
+  line-height: 28px;
+}
+
+footer img {
+  width: 24px;
+  margin-left: 10px;
+}
+
+footer form input[type="text"] {
+  padding: 5px 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  width: 260px;
+}
+
+footer form button {
+  padding: 5px 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  cursor: pointer;
+  color: #001233;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+footer form button:hover {
+  background-color: #adb5bd;
+}
